@@ -18,9 +18,22 @@ macro    (animsceneInit
 
     # compose the list of headers and sources
     set(ANIMSCENE_HEADERS
-        "animscene.h")
+        "predefined/animposparab.h"
+        "animscene.h"
+        "animeasing.h"
+        "animgroup.h"
+        "animitem.h"
+        "animmath.h")
     set(ANIMSCENE_SOURCES
-        "animscene.cc")
+        "predefined/animposparab.cc"
+        "animscene.cc"
+        "animeasing.cc"
+        "animgroup.cc"
+        "animitem.cc"
+        "animmath.cc")
+    set(USERMSG_QT_MODS
+        "Core"
+        "Widgets")
 
     pileSetSources(
         "${ANIMSCENE_INIT_NAME}"
