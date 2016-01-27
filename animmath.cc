@@ -1,5 +1,5 @@
 /**
- * @file animscene.cc
+ * @file animmath.cc
  * @brief Definitions for AnimScene class.
  * @author Nicu Tofan <nicu.tofan@gmail.com>
  * @copyright Copyright 2014 piles contributors. All rights reserved.
@@ -8,7 +8,7 @@
  */
 
 #include "animmath.h"
-
+#include <QPointF>
 
 // from http://stackoverflow.com/a/717833/1742064
 bool parabolaFrom3P (
